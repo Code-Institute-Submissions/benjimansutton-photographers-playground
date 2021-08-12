@@ -23,6 +23,7 @@ h1, h2, h3 {
     float: left;
     font-size: 300%;
     margin-right: 25px;
+    color: #615055;
 }
 
 #header {
@@ -30,12 +31,6 @@ h1, h2, h3 {
     color: #615055;
     background-color: white;
 
-}
-
-#menu-bar li {
-    float: right;
-    list-style: none;
-    margin-right: 25px;
 }
 
 #menu-bar {
@@ -47,4 +42,178 @@ h1, h2, h3 {
 #menu-bar a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu-bar li {
+    float: right;
+    list-style: none;
+    margin-right: 25px;
+}
+
+#menu-bar a:hover {
+    border-bottom: 1px solid #615055;
+}
+
+.active {
+    border-bottom: 1px solid #615055;
+
+}
+
+#hero-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+#hero-text, #hero-text h1, h2 {
+    color: #615055;
+}
+
+#hero-image {
+    height: 600px;
+    background: url('../images/camers.jpg') no-repeat center center;
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#hero-text {
+    font-size: 130%;
+    font-family: open-sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    background-color: #000;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+#hero-text h1, h2 {
+    color: #615055;
+}
+    
+
+#skills {
+    width: 100%;
+    height: 600px;
+    background-color: cadetblue;
+    contain: content;
+
+
+}
+
+
+.left-skill {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-image: url('../images/sports.jpg');
+    background-size: contain;
+    height: 400px;
+    text-align: center;
+   
+    
+}
+
+.right-skill {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-image: url('../images/portrait.jpg');
+    height: 400px;
+    background-size: contain;
+    height: 400px;
+    text-align: center;
+    
+
+}
+
+.center-skill {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-image: url('../images/wildlife.jpg');
+    height: 400px;
+    background-size: contain;
+    height: 400px;
+    text-align: center;
+}
+
+hr{
+    border-top: 1px solid rgb(114, 187, 114);
+    width: 80%;
+    margin: 5px;
+    
+
+}
+
+#about {
+    width: 100%;
+    height: 600px;
+    background-color: darkblue;
+    text-align: center;
+}
+
+#form {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(247, 189, 0);
+    text-align: center; 
+    
+
+}
+
+.form-div {
+    width: 50%;
+    height: 200px;
+
+
+
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=date], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
