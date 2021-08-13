@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: montserrat, sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 300px;
     color: #4B3742;
 }
@@ -16,6 +16,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: 400px;
     color: #615055;
 }
 
@@ -27,17 +28,13 @@ h1, h2, h3 {
     color: #615055;
 }
 
-
-
 #header {
     font: 1em sans-serif;
     color: #615055;
     background-color: #b4a6ab;
-
 }
 
 #menu-bar {
-
     font-size: 125%;
     letter-spacing: 3px;
 }
@@ -60,7 +57,6 @@ h1, h2, h3 {
 
 .active {
     border-bottom: 1px solid #615055;
-
 }
 
 #hero-container {
@@ -71,8 +67,14 @@ h1, h2, h3 {
     background-color: rgb(202, 202, 202);
 }
 
-#hero-text, #hero-text h1, h2 {
-    color: #615055;
+#hero-text h1 h2 {
+    color: #251E20;
+}
+
+#hero-container h1 {
+    font-size: 300%;
+    text-align: center;
+
 }
 
 #hero-image {
@@ -106,9 +108,10 @@ h1, h2, h3 {
    
 }
 
-#hero-text h1, h2 {
+#hero-text h2 {
     color: #615055;
-    font-size: 150%;
+    font-size: 200%;
+    text-align: center;
 }
 
 #skills-box {
@@ -123,7 +126,7 @@ h1, h2, h3 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 25px;
-    font-size: x-large;
+    font-size: 250%;
 }
 
 #skills-box h2 {
@@ -143,6 +146,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#about h1 {
+    font-size: 250%;
+}
+
 #about-div {
     padding: 100px;
     text-align: center;
@@ -152,6 +159,7 @@ h1, h2, h3 {
     list-style: none;
     line-height: 50px;
 }
+
 
 .signupsec {
     width: 100%;
