@@ -29,9 +29,6 @@
                 <li>
                     <a href="#">Sign Up</a>
                 </li>
-                <li>
-                    <a href="#">Gallery</a>
-                </li>
             </ul>
         </nav>
 
@@ -46,15 +43,21 @@
     
     </section>
 
-    <section id="skills-box">
+    <section>
+        <div id="skills-box">
         <h1>Learn How To..</h1>
+        <div id="overlay">
         <div class="left-skill">
+            
             <div class="skill-text">
                 <h2>Shoot Sports</h2>
                 <hr>
                 <p>Capturing Sports is a skill to master, with high shutter speeds and flexible apatures for varying Deapth of Field</p>
             </div>
         </div>
+        </div>
+
+        <div id="overlay">
         <div class="center-skill">
             <div class="skill-text">
                 <h2>Capture Wildllife</h2>
@@ -62,6 +65,9 @@
                 <p>Capture the most beautiful Wildllife, in the wild, in the Safri Park or even your Local Zoo</p>
             </div>
         </div>
+        </div>
+
+        <div id="overlay">
         <div class="right-skill">
             <div class="skill-text">
                 <h2>Beautiful Portraits</h2>
@@ -69,39 +75,57 @@
                 <p>Human Beings are some of the most difficult images to capture, but get this skill right and you can showcase your talent.</p>
             </div>
         </div>
+    </div>
+    </div>
     </section>
 
     <section id="about">
-        <h2>Win Awards</h2>
-        <div id="about-text">
-            <p>We teach you amazing skills that you can put towards our monthly photography awards. You can win:</p>
+        <div id="about-div">
+        <h1>Win Awards</h1>
+        <br>
+        <div>
+            <p>We teach you amazing skills,
+               <br> that you can put towards our 
+              <br> monthly photography awards. 
+              <br> You can win:</p>
+            <br>
             <ul>
-                <li>£1000 each month</li>
+                <li><h3>Macbook Pro 16"</h3></li>
             </ul>
             <ul>
-                <li>Macbook Pro 13"</li>
+                <li><h3>Canon EOS R</h3></li>
             </ul>
             <ul>
-                <li>Featured in our Newsletter</li>
+                <li><h3>£1000 each month</h3></li>
             </ul>
+            <ul>
+                <li><h3>1 Year of Creative Cloud</h3></li>
+            </ul>
+            <ul>
+                <li><h3>Photographer of the Month</h3></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <section class="signupsec">
+        <form action="" method="post"></form>
+        <div id="signup">
+            <h2>Sign Up</h2>
+            <br>
+            <p>Fill in this Form to Sign Up..</p>
+            <br>
+                <label for="fname"><h3>Name:</h3></label><br>
+                <input type="text" id="name" name="name" value=""><br>
+                <label for="lname"><h3>Email:</h3></label><br>
+                <input type="email" id="email" name="email" value=""><br><br>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </form>
         </div>
 
     </section>
 
-    <section id="form">
-        <div class="form-div">
-        <form action="https://www.sendmydatahere.com" method="post"></form>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
-        <label for="age">Age</label>
-        <input type="date" name="age" id="age">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <input type="submit" value="Join Us">
-    </div>
-    </section>
-
-    <footer>
+    <footer class="footer">
         <div id="footer-div">
             <div class="contact">
             <h3>Contact Us!</h3>
