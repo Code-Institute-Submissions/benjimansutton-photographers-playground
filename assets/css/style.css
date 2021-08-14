@@ -266,3 +266,15 @@ input[type=text], input[type=email] {
 .footer a:hover {
     color: #4B3742;
 }
+
+#photos {
+    clear: both;
+    line-height: 0%;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos img {
+    width: 100%;
+
+}
