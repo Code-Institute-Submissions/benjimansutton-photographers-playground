@@ -318,15 +318,62 @@ input[type=text], input[type=email] {
     #photos {
         column-count: 3;
     }
+
+    #footer-div {
+        font-size: 85%;
+        padding-bottom: 20px;
+    }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     #logo {
         font-size: 150%;
     }
 
     #menu-bar {
-        font-size: 85%;
+        font-size: 65%;
+        float: left;
+    
+    }
+
+    #footer-div {
+        font-size: 65%;
+        padding-bottom: 20px;
+    }
+    .fa {
+        padding: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    #logo {
+        font-size: 120%;
+    }
+
+    #menu-bar {
+        font-size: 45%;
+        float: left;
+    
+    }
+
+    #footer-div {
+        font-size: 65%;
+        padding-bottom: 20px;
+    }
+
+    .fa {
+        padding: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
     }
     
 }
