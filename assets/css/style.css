@@ -319,3 +319,14 @@ input[type=text], input[type=email] {
         column-count: 3;
     }
 }
+
+@media screen and (max-width:400px) {
+    #logo {
+        font-size: 150%;
+    }
+
+    #menu-bar {
+        font-size: 85%;
+    }
+    
+}
