@@ -151,13 +151,30 @@ h1, h2, h3 {
 }
 
 #about-div {
-    padding: 100px;
+    padding: 50px;
     text-align: center;
 }
 
 #about-div li {
     list-style: none;
     line-height: 50px;
+}
+
+
+.previouswinners {
+    cursor: pointer;
+    background-color: #E0E5E2;
+    color: #615055;
+    padding: 20px 30px;
+    margin: 10px 0;
+    border: black;
+    width: 20%;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.previouswinners:hover {
+    opacity: 1;
 }
 
 
@@ -171,9 +188,6 @@ h1, h2, h3 {
 
 #signup {
     vertical-align: middle;
-    
-}
-.signupsec {
     
 }
 
@@ -277,4 +291,16 @@ input[type=text], input[type=email] {
 #photos img {
     width: 100%;
 
+}
+
+@media screen and (max-width:800px) {
+    #about {
+        font-size: 100%;
+        height: fit-content;
+    }
+
+    #skills-box {
+        font-size: 80%;
+        height: 600px;
+    }
 }
