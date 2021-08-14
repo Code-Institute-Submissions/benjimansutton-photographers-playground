@@ -8,7 +8,7 @@
 
 body {
     font-family: 'montserrat', sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     color: #4B3742;
 }
 
@@ -16,7 +16,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #615055;
 }
 
@@ -31,7 +31,6 @@ h1, h2, h3 {
 #header {
     font: 1em sans-serif;
     color: #615055;
-    background-color: #b4a6ab;
 }
 
 #menu-bar {
@@ -67,14 +66,17 @@ h1, h2, h3 {
     background-color: rgb(202, 202, 202);
 }
 
-#hero-text h1 h2 {
+#hero-text h2 h3{
     color: #251E20;
 }
 
-#hero-container h1 {
+#hero-container h2 {
     font-size: 300%;
-    text-align: center;
 
+}
+
+#hero-text h3{
+    text-align: center;
 }
 
 #hero-image {
@@ -122,14 +124,14 @@ h1, h2, h3 {
     background-color: #CDD5D1;
 }
 
-#skills-box h1 {
+#skills-box h2 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 25px;
     font-size: 250%;
 }
 
-#skills-box h2 {
+#skills-box h3 {
     text-align: center;
     padding-top: 30px;
 }
@@ -170,7 +172,7 @@ h1, h2, h3 {
     border: black;
     width: 20%;
     opacity: 0.7;
-    text-decoration: none;
+    text-align: center;
 }
 
 .previouswinners:hover {
@@ -268,10 +270,6 @@ input[type=text], input[type=email] {
 
   }
 
-  .contact p {
-      text-size-adjust: 15px;
-  }
-
   .footer a {
     text-decoration: none;
     color: #615055;
@@ -302,5 +300,22 @@ input[type=text], input[type=email] {
     #skills-box {
         font-size: 80%;
         height: 600px;
+    }
+
+    #header {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        
+    }
+
+    #logo {
+        padding-top: 20px;
+    }
+
+    #photos {
+        column-count: 3;
     }
 }
