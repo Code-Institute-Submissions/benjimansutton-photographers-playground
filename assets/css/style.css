@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@600&display=swap');
 
+/* Initial css for header and body fonts */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +21,8 @@ h1, h2, h3 {
     font-weight: 400;
     color: #615055;
 }
+
+/* Logo css with header and menu bar information */
 
 #logo {
     float: left;
@@ -57,6 +61,8 @@ h1, h2, h3 {
 .active {
     border-bottom: 1px solid #615055;
 }
+
+/* Hero section css with the hero image zoom and the overlay */
 
 #hero-container {
     height: 600px;
@@ -116,6 +122,8 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* Skills box fonts sizes and padding */
+
 #skills-box {
     display: block;
     padding-top: 50px;
@@ -141,6 +149,8 @@ h1, h2, h3 {
     padding-top: 30px;  
 }
 
+/* About us section information for style of the div */
+
 #about {
     width: 100%;
     height: 600px;
@@ -161,6 +171,7 @@ h1, h2, h3 {
     list-style: none;
     line-height: 50px;
 }
+
 
 
 .previouswinners {
@@ -278,12 +289,19 @@ input[type=text], input[type=email] {
 .footer a:hover {
     color: #4B3742;
 }
-
+/* 
 #photos {
     clear: both;
     line-height: 0%;
     column-count: 4;
     column-gap: 0;
+} */
+
+#photos {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    column-gap: 15px;
 }
 
 #photos img {
@@ -324,6 +342,10 @@ input[type=text], input[type=email] {
         padding-bottom: 20px;
     }
 }
+
+
+
+
 
 @media screen and (max-width:500px) {
     #logo {
@@ -376,4 +398,62 @@ input[type=text], input[type=email] {
         text-decoration: none;
     }
     
+}
+
+.masonry { /* Masonry container */
+    -webkit-column-count: 4;
+  -moz-column-count:4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+   margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+  -webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+.item img{max-width:100%;}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
 }
