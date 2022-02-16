@@ -6,7 +6,8 @@ This project is to help people learn new skills in the world of photography, as 
 ![ami responsive screenshot](/assets/images/ami-responsive.png)
 
 ## Features
-<hr>
+
+---
 
 This project has multiple different sections to engage the viewer, to help guide them into if they want to get involved.
 
@@ -101,16 +102,27 @@ The website shrinks down to fit into the different breakpoints, but this doesn't
 
 ### Unfixed Bugs
 
-The only unfixed bug is an issue with the footer when going below 400px breakpoint and it drops below the viewpoint, i found this at the very last stage and will continue to work on this.
+~~The only unfixed bug is an issue with the footer when going below 400px breakpoint and it drops below the viewpoint, i found this at the very last stage and will continue to work on this.~~
 
 
 ## Deployment
 
-Through the whole build, the site was pushed to GitHub
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/benjimansutton/photographers-playground), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-    - It was finally deployed to the GitHub repository.
+The live link can be found [here](https://benjimansutton.github.io/photographers-playground)
 
-The live link can be found here - https://benjimansutton.github.io/Project-1/
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/benjimansutton/photographers-playground.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/benjimansutton/photographers-playground)
 
  ## Credits
 
