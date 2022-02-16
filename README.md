@@ -18,6 +18,10 @@ This project has multiple different sections to engage the viewer, to help guide
 
     - The links allow navigation from one section to the other as a hassle free moment and good user interaction.
 
+    - Any links to other pages are opened in another page (Winners Page).
+
+    - All images open up on another page to show high resolution image for the user.
+
 ![navigation bar](/assets/images/navigation-bar.png)
 
 - __Landing Page Image__
@@ -80,7 +84,7 @@ The website shrinks down to fit into the different breakpoints, but this doesn't
 - __Validator Testing__
 
     - HTML
-        - As i was using the validator throughout the building process and not just at the end, errors where returned, but they were all actioned.
+        - As i was using the validator throughout the building process and not just at the end, errors where returned, but they were all changed.
 
     ![html validation](/assets/images/html-validator.png)
 
@@ -117,8 +121,9 @@ The live link can be found here - https://benjimansutton.github.io/Project-1/
     - The animation and gallery code was enhanced by the Love Running Project.
     - The social media icons, HTML & CSS where supported by Font Awesome and W3S Website.
     - Any other Icons where used with Font Awesome
+    - Gallery layout from W3Schools Website
 
 - __Media__
 
-    - All images across the site where taken from an open source site https://www.pexels.com/
+    - All images across the site where taken from an open source site https://www.unsplash.com
 
