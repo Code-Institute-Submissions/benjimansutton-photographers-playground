@@ -47,7 +47,7 @@ h1, h2, h3 {
 
 #header {
     font: 1em sans-serif;
-    color: #615055;
+    color: color: #150409;;
 }
 
 #menu-bar {
@@ -86,7 +86,7 @@ h1, h2, h3 {
 }
 
 #hero-text h2 h3{
-    color: #251E20;
+    color: #150409;
 }
 
 #hero-container h2 {
@@ -130,7 +130,7 @@ h1, h2, h3 {
 }
 
 #hero-text h2 {
-    color: #615055;
+    color: #150409;
     font-size: 200%;
     text-align: center;
 }
