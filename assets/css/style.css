@@ -12,8 +12,9 @@ html {
     scroll-behavior: smooth;
 }
 
-html,body {
-    height:100%;
+html,
+body {
+    height: 100%;
 }
 
 body>footer {
@@ -27,7 +28,9 @@ body {
     color: #4B3742;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -47,7 +50,8 @@ h1, h2, h3 {
 
 #header {
     font: 1em sans-serif;
-    color: #150409;;
+    color: #150409;
+    ;
 }
 
 #menu-bar {
@@ -85,7 +89,7 @@ h1, h2, h3 {
     background-color: rgb(202, 202, 202);
 }
 
-#hero-text h2 h3{
+#hero-text h2 h3 {
     color: #150409;
 }
 
@@ -94,7 +98,7 @@ h1, h2, h3 {
 
 }
 
-#hero-text h3{
+#hero-text h3 {
     text-align: center;
 }
 
@@ -113,10 +117,11 @@ h1, h2, h3 {
 }
 
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
@@ -126,7 +131,7 @@ h1, h2, h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   
+
 }
 
 #hero-text h2 {
@@ -159,7 +164,7 @@ h1, h2, h3 {
 
 #skills-box p {
     text-align: center;
-    padding-top: 30px;  
+    padding-top: 30px;
 }
 
 /* About us section information for style of the div */
@@ -187,7 +192,7 @@ h1, h2, h3 {
 
 /* Gallery Section */
 
- 
+
 #photos {
     clear: both;
     column-count: 4;
@@ -210,16 +215,16 @@ h1, h2, h3 {
     position: relative;
 
 }
-  
+
 .gallery:hover {
     border: 1px solid #777;
 }
-  
+
 .gallery img {
     width: 100%;
     height: auto;
 }
-  
+
 .desc {
     padding: 15px;
     text-align: center;
@@ -231,17 +236,17 @@ h1, h2, h3 {
     width: 100%;
     text-align: center;
 }
-  
+
 * {
     box-sizing: border-box;
 }
-  
+
 .responsive {
     padding: 0 6px;
     /* float: left;
     width: 24.99999%; */
 }
-  
+
 .clearfix:after {
     content: "";
     display: table;
@@ -254,13 +259,13 @@ h1, h2, h3 {
     width: 100%;
     height: 600px;
     background-color: #C1C2C1;
-    text-align: center; 
+    text-align: center;
     padding-top: 50px;
 }
 
 #signup {
     vertical-align: middle;
-    
+
 }
 
 .signupbtn {
@@ -278,7 +283,8 @@ h1, h2, h3 {
     opacity: 1;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
     width: 30%;
     padding: 25px;
     margin: 5px 0 20px 0;
@@ -297,6 +303,7 @@ input[type=text], input[type=email] {
     text-align: center;
     text-decoration-color: white;
 }
+
 .fa:hover {
     opacity: 0.7;
 }
@@ -352,7 +359,7 @@ input[type=text], input[type=email] {
 /* Responsiveness section */
 
 @media screen and (max-width:800px) {
-    
+
     #about {
         font-size: 100%;
         height: fit-content;
@@ -368,7 +375,7 @@ input[type=text], input[type=email] {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px; 
+        line-height: 25px;
     }
 
     #logo {
@@ -387,18 +394,18 @@ input[type=text], input[type=email] {
     .responsive {
         width: 100%;
     }
-  
+
     #photos {
-          column-count: 2;
+        column-count: 2;
     }
-  
+
     .desc {
-          display: none;
+        display: none;
     }
 }
 
 @media screen and (max-width:700px) {
-    
+
     #logo {
         font-size: 150%;
     }
@@ -425,19 +432,19 @@ input[type=text], input[type=email] {
     .responsive {
         width: 100%;
     }
-  
+
     #photos {
-          column-count: 2;
+        column-count: 2;
     }
-  
+
     .desc {
-          display: none;
+        display: none;
     }
-    
+
 }
 
 @media screen and (max-width:500px) {
-    
+
     #logo {
         font-size: 150%;
     }
@@ -464,18 +471,18 @@ input[type=text], input[type=email] {
     .responsive {
         width: 100%;
     }
-  
+
     #photos {
-          column-count: 1;
+        column-count: 1;
     }
-  
+
     .desc {
-          display: none;
+        display: none;
     }
 }
 
 @media screen and (max-width:320px) {
-    
+
     #logo {
         font-size: 120%;
     }
@@ -502,11 +509,11 @@ input[type=text], input[type=email] {
     .responsive {
         width: 100%;
     }
-  
+
     #photos {
         column-count: 1;
     }
-  
+
     .desc {
         display: none;
     }
